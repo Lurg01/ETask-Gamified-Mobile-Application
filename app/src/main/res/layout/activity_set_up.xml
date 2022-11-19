@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SetUpActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET UP ACCOUNT"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="@font/abeezee"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"/>
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/satin"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Profile Info"
+                    android:fontFamily="@font/abeezee"
+                    android:textSize="22sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    app:civ_border_color="@color/teal_700"
+                    app:civ_border_width="3dp"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/user"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/f_ame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Firstname"
+                        android:fontFamily="@font/abeezee"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/l_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Lastname"
+                        android:fontFamily="@font/abeezee"
+                        android:inputType="text"/>
+
+                    <LinearLayout
+                        android:id="@+id/sk_setup_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:fontFamily="@font/abeezee"
+                            android:text="Group Info"
+                            android:textSize="25sp" />
+
+                        <EditText
+                            android:id="@+id/group_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/abeezee"
+                            android:hint="Group Name"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/brgy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/abeezee"
+                            android:hint="Barangay"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/municipal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Municipality"
+                            android:fontFamily="@font/abeezee"
+                            android:inputType="text"/>
+
+
+                        <EditText
+                            android:id="@+id/town"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/abeezee"
+                            android:hint="Town/ Province"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/participant_setup_content"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/abeezee"
+                            android:hint="Address"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/abeezee"
+                            android:hint="Phone"
+                            android:inputType="phone"/>
+
+                        <EditText
+                            android:id="@+id/hobby"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Hobby"
+                            android:fontFamily="@font/abeezee"
+                            android:inputType="text"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/finish_btn"
+                    android:layout_marginBottom="10dp"
+                    android:text="Finish"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</ScrollView>

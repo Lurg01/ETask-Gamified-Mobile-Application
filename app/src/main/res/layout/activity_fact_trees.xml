@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FactTrees">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:text="Tree Biology"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:background="#9bae57"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="22dp"
+                android:src="@drawable/trees"/>
+
+            <LinearLayout
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Trees are the longest living organisms on earth. Trees and other plants make their food through a process called photosynthesis."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv2"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/trees1"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="The inside of a tree is made of cork, phloem, cambium, and xylem. The xylem of a tree carries water from the roots to the leaves."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:layout_marginEnd="15dp"
+            android:textSize="20dp"
+            android:text="General Facts about Trees"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:background="#9bae57"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv4"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="22dp"
+                android:src="@drawable/air"/>
+
+            <LinearLayout
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Trees keep our air supply fresh by absorbing carbon dioxide and producing oxygen."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv3"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/co2"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="In one year, an acre of trees can absorb as much carbon as is produced by a car driven up to 8700 miles."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv5"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/house"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Trees provide shade and shelter, reducing yearly heating and cooling costs by 2.1 billion dollars."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv6"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/evap"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Trees lower air temperature by evaporating water in their leaves"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv7"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="22dp"
+                android:src="@drawable/noise"/>
+
+            <LinearLayout
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Trees cut down noise pollution by acting as sound barriers."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv8"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/storm"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Trees provide protection from downward fall of rain, sleet, and hail as well as reduce storm run-off and the possibility of flooding,"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:text="Record-setting Trees"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:background="#9bae57"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv9"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/tall"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="The world's tallest tree is a coast redwood in California, measuring more than 360 ft or 110m."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv10"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#33cc5a"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ol"/>
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="The world's oldest trees are 4,600 year old Bristlecone pines in the USA."/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv11"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#7fa208"
+            app:cardUseCompatPadding="true"
+
+
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/wood"
+
+                />
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="180dp"
+                android:layout_height="120dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Want to Read More... Click me"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>

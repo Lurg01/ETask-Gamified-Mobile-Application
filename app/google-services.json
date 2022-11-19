@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461830030150",
+    "project_id": "etask-bbff9",
+    "storage_bucket": "etask-bbff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461830030150:android:6662da8c31de8fcebb5b47",
+        "android_client_info": {
+          "package_name": "com.example.etask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461830030150-n4shro553gtu3miuqgitu5mjdo1qovt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSKrPAltntE0mqIXl9mwdsiN8lQEg2TfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461830030150-n4shro553gtu3miuqgitu5mjdo1qovt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

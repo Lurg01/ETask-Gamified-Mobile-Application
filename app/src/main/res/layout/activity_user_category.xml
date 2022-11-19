@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".UserCategory">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/abeezee"
+                android:text="ETASK"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#9bae57"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/etask_icon"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select User Type"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#9bae57"
+                android:layout_marginTop="10dp"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/sk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leader" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="                "
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/participant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text = "Participant" />
+
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/proceed"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Proceed"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

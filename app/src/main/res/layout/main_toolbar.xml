@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/drawer_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ClickMenu"
+        android:backgroundTint="@color/fui_transparent"
+        android:src="@drawable/ic_baseline_menu_24"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/qr"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_qr_code_scanner_24"/>
+
+
+        <TextView
+            android:id="@+id/total_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="0"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/total_coins_btn"
+            android:layout_gravity="end"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/totalcoins"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

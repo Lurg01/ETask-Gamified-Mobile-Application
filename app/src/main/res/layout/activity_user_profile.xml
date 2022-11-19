@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp">
+                        <ImageButton
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@color/white"
+                            android:src="@drawable/horizontal"
+                            />
+                    </LinearLayout>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/abeezee"
+                                android:text="My Profile"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/profile_image"
+                                    app:civ_border_color="@color/teal_700"
+                                    app:civ_border_width="3dp"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:src="@drawable/community"
+                                    android:layout_gravity="center">
+
+                                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:background="#9bae57"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Firstname: "
+                                    android:inputType="text" />
+                                <TextView
+                                    android:id="@+id/fname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Firstname"
+                                    android:textSize="20sp"
+                                    android:inputType="text" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Lastname: "
+                                    android:textSize="20sp"
+                                    android:inputType="text" />
+                                <TextView
+                                    android:id="@+id/lname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Firstname"
+                                    android:textSize="20sp"
+                                    android:inputType="text" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:background="#9bae57"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                />
+
+                            <LinearLayout
+                                android:id="@+id/participant_info"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="20sp"
+                                        android:hint="Address: "
+                                        android:inputType="text" />
+
+                                    <TextView
+                                        android:id="@+id/address"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="20sp"
+                                        android:hint="Address"
+                                        android:inputType="text"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Phone: "
+                                        android:textSize="20sp"
+                                        android:inputType="text" />
+                                    <TextView
+                                        android:id="@+id/phone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Phone"
+                                        android:textSize="20sp"
+                                        android:inputType="text"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="20dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Hobby: "
+                                        android:textSize="20sp"
+                                        android:inputType="text" />
+                                    <TextView
+                                        android:id="@+id/hobby"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="20sp"
+                                        android:hint="Hobby"
+                                        android:inputType="text"/>
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp">
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp"
+                        app:cardBackgroundColor="@color/satin">
+
+                        <LinearLayout
+                            android:id="@+id/group_info_sk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/abeezee"
+                                android:text="Group Info"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:background="#9bae57"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Group Name: "
+                                    android:inputType="text" />
+
+                                <TextView
+                                    android:id="@+id/group_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Group Name"
+                                    android:inputType="text"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Barangay: "
+                                    android:textSize="20sp"
+                                    android:inputType="text" />
+                                <TextView
+                                    android:id="@+id/brgy"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Barangay"
+                                    android:textSize="20sp"
+                                    android:inputType="text"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Municipality: "
+                                    android:textSize="20sp"
+                                    android:inputType="text" />
+                                <TextView
+                                    android:id="@+id/municipal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Municipality"
+                                    android:inputType="text"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Municipality: "
+                                    android:textSize="20sp"
+                                    android:inputType="text" />
+                                <TextView
+                                    android:id="@+id/town"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Municipality"
+                                    android:inputType="text"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:background="#9bae57"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp">
+
+                    </LinearLayout>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/group_code_sk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/abeezee"
+                                android:text="Group Code"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:background="#9bae57"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Group Code: "
+                                    android:inputType="text" />
+
+                                <TextView
+                                    android:id="@+id/group_code"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:hint="Group Code"
+                                    android:inputType="text"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:background="#9bae57"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </LinearLayout>
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

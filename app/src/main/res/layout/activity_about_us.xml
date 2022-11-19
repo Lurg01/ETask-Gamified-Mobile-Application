@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/satin"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/etask_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Welcome to ETASK"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/green1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abeezee"
+                android:text="We are very excited that you are here! At ETASK we believe that in making responsible person, one must join and participate in task that will help the community, your community!"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee"
+                android:text="We believe that a one person can make a big difference through small actions. "
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee"
+                android:text="This app is made for SK (Sangguniang Kabataan) and to their respective barangay's."
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee"
+                android:text="We at ETASK believe that you can help the community and yourself, by participating in the task made by the Sangguniaang Kabataan. "
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee"
+                android:text="We really hope you enjoy the ETASK app!.If there is anyway we can improve your experience, please let us know."
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee"
+                android:text="ETASK is developed by the students of Laguna State Polytechnic University."
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Contact us"
+                android:textSize="25sp"
+                />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/green1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        app:cardUseCompatPadding="true"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/fb"/>
+
+                    </androidx.cardview.widget.CardView
+                        >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        app:cardUseCompatPadding="true"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/instagram"/>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        app:cardUseCompatPadding="true"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/gmail"/>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        app:cardUseCompatPadding="true"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/twitter"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardBackgroundColor="@color/satin"
+                        app:cardUseCompatPadding="true"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/linked"/>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/green1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                />
+
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="ETASK"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="50dp"
+                android:text="2022 ETASK. All rights reserved."/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

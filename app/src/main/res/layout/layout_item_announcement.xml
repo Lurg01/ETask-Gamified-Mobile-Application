@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/satin">
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:text="&#8942;"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textSize="30sp"
+        android:id="@+id/txt_option_ans"
+        android:layout_gravity="end" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/green1"
+            android:layout_width="100dp"
+            android:id="@+id/img_task"
+            android:padding="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/grand"
+            android:src="@drawable/mega"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/abeezee"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:text="@string/title"
+                android:textAllCaps="true"
+
+                android:textSize="25sp" />
+            <View
+                android:layout_width="200dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_height="2dp"
+                android:background="@color/green1"
+                />
+
+            <TextView
+                android:id="@+id/txt_desc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/abeezee"
+                android:layout_gravity="center_vertical|end"
+                android:text="Descriptions of the announcement that is multiline fakening shets"
+                android:textSize="15sp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
