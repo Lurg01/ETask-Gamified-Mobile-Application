@@ -1,2 +1,2 @@
 # Etask
-A Gamified Mobile Application for Enviroment and Community Participation.
+A Gamified Mobile Application for Environment and Community Participation.
