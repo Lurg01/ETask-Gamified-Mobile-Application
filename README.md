@@ -1,2 +1,2 @@
-# Etak
+# Etask
 A Gamified Mobile Application for Enviroment and Community Participation.
